@@ -1,6 +1,6 @@
 .BuildControls {
   width: 100%;
-  height: 100%;
+  height: 50%;
   background-color: #cf8f2e;
   display: flex;
   flex-flow: column;
@@ -8,6 +8,7 @@
   box-shadow: 0 2px 1px #ccc;
   margin: auto;
   padding: 10px 0;
+  box-sizing: border-box;
 }
 
 .OrderButton {
@@ -50,11 +51,5 @@
   }
   100% {
     transform: scale(1);
-  }
-}
-
-@media (max-width: 500px) {
-  .BuildControls {
-    height: 370px;
   }
 }
